@@ -68,7 +68,7 @@ switch (yourPet) {
     break
 }
 
-
+// For more on ternaries, look at ternary.js
 
 
 
