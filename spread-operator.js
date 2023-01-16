@@ -52,5 +52,19 @@ const newArray = primeNumber
 // clog("array double", newNumberList)
 // clog("array combined", newNumberList2)
 
-const mathMax = Math.max(...primeNumber)
-clog("Math Max", mathMax)
+// const mathMax = Math.max(...primeNumber)
+// clog("Math Max", mathMax)
+
+const number1 = [1,3,5,7]
+const number2 = [2,4,6,8]
+
+//create one array with all the vallues from both array
+const combinedNumber = [number1, number2]
+const combinedNumber2 = [...number1, ...number2]
+
+// clog("not combined array", combinedNumber)
+// clog("combined array", combinedNumber2)
+
+// const check = combinedNumber[0]
+// clog("combined array", check)
+
